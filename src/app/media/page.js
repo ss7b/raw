@@ -8,7 +8,7 @@ function Media() {
     <div className='container mx-auto px-4 my-10'>
       <Carousel/>
       <h2 className="divider dark:text-white text-xl">مزيد من المقاطع</h2>
-      <section className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-5 md:gap-5 my-10 '>
+      <section className='grid grid-cols-1 lg:grid-cols-4 gap-y-5 md:gap-5 my-10 '>
         <PostCard/>
         <PostCard/>
         <PostCard/>

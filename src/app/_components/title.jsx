@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 
-function Title({title}) {
+function Title({title,link}) {
   return (
     <div className='flex justify-between my-10'>
         <h2 className="text-2xl dark:text-white">{title}</h2>
@@ -11,7 +11,7 @@ function Title({title}) {
         
         <Link
             className="flex gap-1 rounded-md bg-teal-600 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-teal-700 dark:hover:bg-teal-500"
-            href="#"
+            href={link}
           >
             <span className="text-sm font-medium">المزيد</span>
 

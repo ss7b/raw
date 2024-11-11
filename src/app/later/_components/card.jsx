@@ -9,6 +9,7 @@ function Card() {
       <figure>
           <Image
           className='w-full'
+          width={100} height={100}
           src="/images/later.jpg"
           alt="horse" />
       </figure>

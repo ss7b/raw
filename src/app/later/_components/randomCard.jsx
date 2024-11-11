@@ -19,8 +19,11 @@ function RandomCard() {
 
   <div className="hidden sm:block sm:basis-56">
     <Image
+
       alt=""
       src="/images/later.jpg"
+      width={100} height={100}
+
       className="aspect-square h-full w-full object-cover"
     />
   </div>

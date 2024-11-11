@@ -7,7 +7,9 @@ function CardSide() {
         <figure>
             <Image
             className='h-fit'
-            src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
+        width={100} height={100}
+
+            src="/images/re.jpg"
             alt="Movie" />
         </figure>
         <div className="card-body dark:bg-gray-800 ">
