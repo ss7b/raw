@@ -1,10 +1,11 @@
+import Image from 'next/image'
 import React from 'react'
 
 function CardSide() {
   return (
     <div className="card card-side bg-base-100 shadow-xl mb-3 ">
         <figure>
-            <img
+            <Image
             className='h-fit'
             src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
             alt="Movie" />
