@@ -43,12 +43,12 @@ function Header() {
           </li>
 
           <li>
-            <a
+            <Link
               className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75 font-medium text-xl"
               href="/later"
             >
               قصايد
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>
